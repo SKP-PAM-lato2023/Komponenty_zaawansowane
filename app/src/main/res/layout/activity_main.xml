@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:timePickerMode="clock" />
+
+        <Button
+            android:id="@+id/buttonTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wybierz czas" />
+
+        <Button
+            android:id="@+id/buttonTime2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wybierz czas 2" />
+
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nie wybrano czasu"
+            android:layout_gravity="center_horizontal"/>
+
+        <DatePicker
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:datePickerMode="calendar"/>
+
+        <Button
+            android:id="@+id/buttonDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wybierz datę" />
+
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nie wybrano daty"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
